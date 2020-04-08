@@ -79,7 +79,9 @@ public class LoginActivity extends AppCompatActivity {
 //                String passWord = textInputPassWord.getEditText().getText().toString().trim();
                 if( !validateUserName() ||  !validatePassWord()){
                     Toast.makeText(LoginActivity.this, "Hãy nhập đầy đủ thông tin!,you son of the bitch", Toast.LENGTH_SHORT).show();
+
                     Toast.makeText(LoginActivity.this, "Hãy nhập đầy đủ thông tin!,you son of the bitch,hello mother fucker,nguyendepzai", Toast.LENGTH_SHORT).show();
+
                 }
                  else{
                     LoginCustomer(urlLogin);
